@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="HTML5 Template" />
+<meta name="description" content="Webster - Responsive Multi-purpose HTML5 Template" />
+<meta name="author" content="potenzaglobalsolutions.com" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Tuff on Turf - Lawn Care Services</title>
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="images/grass.png" />
+
+<!-- font -->
+<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,500i,600,700,800,900|Poppins:200,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900">
+ 
+<!-- Plugins -->
+<link rel="stylesheet" type="text/css" href="css/plugins-css.css" />
+
+<!-- Typography -->
+<link rel="stylesheet" type="text/css" href="css/typography.css" />
+
+<!-- Shortcodes -->
+<link rel="stylesheet" type="text/css" href="css/shortcodes/shortcodes.css" />
+
+<!-- Style -->
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+<!-- shop -->
+<link href="css/shop.css" rel="stylesheet" type="text/css" /> 
+
+<!-- Responsive -->
+<link rel="stylesheet" type="text/css" href="css/responsive.css" /> 
+  
+</head>
+
+<body>
+ 
+<div class="wrapper">
+ 
+<!--=================================
+ header -->
+ 
+<header id="header" style="background-color:#008037" class="header default fullWidth">
+    
+      <div class="topbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 xs-mb-10">
+            <div class="topbar-call text-center text-md-left">
+              <ul>
+                <li style="color: black;"><i style="color: black;" class="fa fa-envelope-o theme-color"></i> support@tuffonturf.com</li>
+                 <li><i style="color: black;" class="fa fa-phone" ></i> <a href="tel:+7042791249"> <span style="color: black;">+(407) 917-2618 </span> </a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="topbar-social text-center text-md-right">
+              <ul>
+                <li><a href="https://www.facebook.com/tuffonturf" target="_blank"><span style="color: black;" class="ti-facebook"></span></a></li>
+                <li><a href="https://twitter.com/tuffonturf" target="_blank"><span style="color: black;" class="ti-twitter"></span></a></li>
+                <li><a href="https://www.instagram.com/tuffonturf" target="_blank"><span style="color: black;" class="ti-instagram"></span></a></li>
+                <li><a href="https://www.linkedin.com/company/tuffonturf" target="_blank"><span style="color: black;" class="ti-linkedin"></span></a></li>
+              </ul>
+            </div>
+          </div>
+         </div>
+      </div>
+    </div>
+    
+ <div class="menu" id="onepagenav">  
+  <!-- menu start -->
+   <nav id="menu" class="mega-menu">
+    <!-- menu list items container -->
+    <section class="menu-list-items" style="background-color: white ;" >
+     <div class="container-fluid"> 
+      <div class="row"> 
+       <div class="col-lg-12 col-md-12"> 
+        <!-- menu logo -->
+        <ul class="menu-logo">
+            <li>
+                <a><img id="logo_img" src="images/greenieyellowturf.png" alt="logo"> </a>
+                <style>
+                    .mega-menu .menu-mobile-collapse-trigger:before, .mega-menu .menu-mobile-collapse-trigger:after, .mega-menu .menu-mobile-collapse-trigger span
+                    {
+                        background: black;
+                    }
+                </style>
+            </li>
+        </ul>
+        <!-- menu links -->
+        <div class="menu-bar">
+         <ul class="menu-links">
+             <style>
+                 .mega-menu .menu-links > li > a
+                 {
+                     color: black;
+                 }
+                 .mega-menu .menu-links > li > a:hover
+                 {
+                     color: #008037;
+                 }
+                 .mega-menu .menu-links > li.active a
+                 {
+                     color: #008037;
+                 }
+             </style>
+
+			<li><a href="#home" id="menu" class="btn">Home</a></li>
+			
+			<li><a href="#about" id="menu" class="btn">About Us</a></li>
+			
+			<li><a href="#services" id="menu" class="btn">Our Services</a></li>
+			
+			<li><a href="#testimonials" id="menu" class="btn">Testimonials</a></li>
+               
+			<li><a href="#quote" id="secret" class="btn">Contact Us</a></li>
+			
+         </ul>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+   </nav>
+  <!-- menu end -->
+ </div>
+</header>
+
+ <!--=================================
+ header -->
+ 
+<!--=================================
+ banner -->
+
+<section class="slider-parallax business-banner-03 bg-overlay-black-50 parallax" data-jarallax='{"speed": 0.6}' style="background-image: url(images/morningdew.jpg);" id="home">
+  <div class="slider-content-middle">
+   <div class="container">
+     <div class="row">
+        <div class="col-lg-12 col-md-12">
+            <style>
+                .slider-parallax
+                {
+                    height: 100vh;
+                }
+            </style>
+          <div class="slider-content text-center"> 
+          <h1 class="mobileHide text-white mb-130 mt-100"><b>Your Satisfaction Is <br>Our Commitment </b><br><span class="d-block mb-40 text-white">A Leader In Lawn Care</span></h1>
+          <h1 class="mobileShow text-white mb-130 mt-100"><b>Your Satisfaction Is <br>Our Commitment </b><br><span class="d-block mb-40 text-white">A Leader In Lawn Care</span></h1>
+           <style type="text/css">
+               .mobileShow 
+               { 
+                   display: none;
+               }
+               /* Smartphone Portrait and Landscape */
+               @media only screen
+               and (min-device-width : 320px)
+               and (max-device-width : 480px)
+               { 
+                   .mobileShow 
+                   { 
+                       display: block;
+                   }
+                   .slider-parallax.typer-banner.business h1
+                   {
+                       font-size: 43px;
+                       line-height: 50px;
+                   }
+               }
+            </style>
+            <style type="text/css">
+               .mobileHide { display: block;}
+               /* Smartphone Portrait and Landscape */
+               @media only screen
+               and (min-device-width : 320px)
+               and (max-device-width : 480px)
+               {  
+                   .mobileHide 
+                   { 
+                       display: none;   
+                       color: white;
+                   }
+                   .slider-parallax.typer-banner.business h1
+                   {
+                       font-family: revert;
+                   }
+               }
+            </style>
+            <style>
+                .business-banner-03 span 
+                   {
+                       letter-spacing: 15px;
+                   }
+            </style>
+            <a onclick="myFunction()" class="button large black ml-10 animated4" style="background-color: #008037; border-color: #008037; color: white;">LEARN MORE </a>
+           <script>
+            function myFunction(){
+             document.getElementById("secret").click(); 
+            }
+            </script>
+          </div>
+         </div>
+        </div>
+     </div>
+  </div>
+</section>
+ 
+<!--=================================
+ banner -->
+ 
+ <!--=================================
+ About-->
+
+<section class="page-section-ptb" id="about">
+  <div class="container">
+     <div class="row">
+      <div class="col-lg-6 sm-mt-50">
+        <div class="section-title">
+          <div class="section-title line left">
+            <h1 class="title" style="margin-bottom: 25px;">About Us</h1>
+          </div>
+          <h3 style="margin-bottom: 20px;">Our mission is to serve our community by providing exceptional lawn service and guaranteeing client satisfaction every time!</h3>
+          <p class="phoneShow" style="font-size: 20px;">We're commited to being your reliable source of lawn care whether you need more free time to spend with family or growing your business. Our values include 
+          integrity that you can depend on and being a brand you can trust. </p>
+          
+          <p class="phoneHide" style="font-size: 20px; padding-right: 75px;">We're commited to being your reliable source of lawn care whether you need more free time to spend with family or growing your business. Our values include 
+          integrity that you can depend on and being a brand you can trust. </p>
+          
+          <style type="text/css">
+               .phoneShow 
+               { 
+                   display: none;
+               }
+               @media only screen 
+               and (max-device-width: 480px) 
+               and (min-device-width: 320px)
+               {
+                    .phoneShow 
+                    { 
+                        display: block;
+                    }
+               }
+            </style>
+            <style type="text/css">
+               .phoneHide 
+               { 
+                   display: block;
+               }
+               @media only screen
+               and (min-device-width : 320px)
+               and (max-device-width : 480px)
+               {  
+                   .phoneHide 
+                   { 
+                       display: none;
+                   }
+                   .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto
+                   {
+                       padding-right: 15px;
+                       /* mobile view */
+                   }
+               }
+            </style>
+          
+        </div>
+      </div>
+      <div class="col-lg-6">
+          <img src="images/largegrassoverlaymow.png" class="img-fluid full-width" alt="">
+      </div>
+     </div>
+  </div>
+</section>
+
+<!--=================================
+ About-->
+ 
+<!--=================================
+ Our Blog -->
+
+<section class="our-clients theme-bg text-white page-section-ptb position-relative" style="background-color:#008037" id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="text-uppercase text-white mb-0 text-center">Our Services</h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--=================================
+ service -->
+
+<section class="secrvice-blog pb-50">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 mb-30">
+        <div class="card border-0  box-content o-hidden h-100">
+          <img class="img-fluid" src="images/overlaptrim.png" alt="">
+          <div class="p-4" style="text-align: center;">
+            <h4 class="fw-5" style="margin-bottom: 10px;"><a href="#" class="text-black">Mowing </a></h4>
+            <p class="mb-0 pb-0 text-black">We'll maintain a fresh cut for your lawn on a weekly or monthly basis, providing you more free time to focus on what matters most. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 mb-30">
+        <div class="card border-0  box-content o-hidden h-100">
+          <img class="img-fluid" src="images/theedge.png" alt="">
+          <div class="p-4" style="text-align: center;">
+            <h4 class="fw-5" style="margin-bottom: 10px;"><a href="#" class="text-black">Edging </a></h4>          
+            <p class="mb-0 pb-0 text-black">First impressions are important, that's why we believe every lawn deserves a crispy edge to really stand out. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 mb-30">
+        <div class="card border-0  box-content o-hidden h-100">
+          <img class="img-fluid" src="images/hedgetrim.png" alt="">
+          <div class="p-4" style="text-align: center;">
+            <h4 class="fw-5" style="margin-bottom: 10px;"><a href="#" class="text-black">Trimming </a></h4>         
+            <p class="mb-0 pb-0 text-black">When it comes to lawn care, we ensure you are well equipped with hedges and bushes that are well maintained. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!--=================================
+ service -->
+
+<!--=================================
+ Our Testimonial -->
+ 
+ <section class="our-clients theme-bg text-white page-section-ptb position-relative" style="padding: 25px; background-color:#008037;" id="testimonials">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3 class="phraseHide text-uppercase text-white mb-0 text-center" style="font-size=20px;">What Our Clients Are Saying</h3>
+        <h3 class="phraseShow text-uppercase text-white mb-0 text-center" style="font-size=20px;">What Our Clients Are Saying</h3>
+        <style type="text/css">
+           .phraseShow 
+           { 
+               display: none;
+           }
+           /* Smartphone Portrait and Landscape */
+           @media only screen
+           and (min-device-width : 320px)
+           and (max-device-width : 480px)
+           { 
+               .phraseShow 
+               { 
+                   display: block;
+               }
+               h3
+               {
+                   font-size: 20px;
+               }
+           }
+        </style>
+        <style type="text/css">
+           .phraseHide { display: block;}
+           /* Smartphone Portrait and Landscape */
+           @media only screen
+           and (min-device-width : 320px)
+           and (max-device-width : 480px)
+           {  
+               .phraseHide 
+               { 
+                   display: none;   
+                   color: white;
+               }
+           }
+        </style>
+  </div>
+    </div>
+  </div>
+</section>
+ 
+ <!--=================================
+owl carousel -->
+
+<!--=================================
+min-title -->
+
+<section class="blockquote-section testimonial-title page-section-ptb">
+  <div class="container">
+    <div class="row no-gutter">
+      <div class="col-sm-12 text-center">
+          <div class="mb-20"> <img alt="" src="images/greenquote64.png"> </div>
+        <blockquote>
+          Reliable service every week!
+        </blockquote>
+        <div class="author-info"> <strong>Jose - <span>Kissimmee</span></strong> </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--=================================
+min-title -->
+
+<!--=================================
+counter
+
+<section class="page-section-ptb">
+  <div class="container">
+ <div class="row">
+      <div class="col-lg-12">
+      <div class="owl-carousel" data-nav-arrow="false" data-nav-dots="true" data-items="1" data-lg-items="1" data-md-items="1" data-sm-items="1" data-xs-items="1">
+         <div class="item">
+              <div class="testimonial bottom_pos">
+                <div class="testimonial-avatar"> <img alt="" src="images/forsalehousetrim.png"> </div>
+                <div class="testimonial-info"> Reliable service every week!</div>
+                <style>
+                    .testimonial-info:before
+                    {
+                        color: #008037;
+                    }
+                    .author-info span
+                    {
+                        color: #008037;
+                    }
+                    .testimonial-avatar img
+                    {
+                        border: 4px solid #008037;
+                    }
+                    .owl-carousel .owl-dots .owl-dot:hover span, .owl-carousel .owl-dots .owl-dot.active span
+                {
+                    background: #008037;
+                }
+                    </style>
+                <div class="author-info"> <strong>Phil - <span>Kissimmee</span></strong> </div>
+            </div>
+        </div>
+        <div class="item">
+         <div class="testimonial bottom_pos">
+            <div class="testimonial-avatar"> <img alt="" src="images/residential1.png"> </div>
+            <div class="testimonial-info"> The guys work fast and saves me time on lawn work.</div>
+            <div class="author-info"> <strong>Jose - <span>Kissimmee</span></strong> </div>
+        </div>
+        </div>
+        <div class="item">
+         <div class="testimonial bottom_pos">
+            <div class="testimonial-avatar"> <img alt="" src="images/residential2.png"> </div>
+             <div class="testimonial-info"> Thanks for the great service guys!</div>
+            <div class="author-info"> <strong>Rodney - <span>Orlando</span></strong> </div>
+          </div>
+         </div>
+       </div>
+     </div>
+    </div>
+   </div>
+</section>
+
+<!--=================================
+ Our Testimonial -->
+
+<!--=================================
+Our Clients  -->
+
+<section class="our-clients theme-bg text-white page-section-ptb" id="quote" style="background-color:#008037">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="text-uppercase text-white mb-0 text-center">Contact Us</h2>
+      </div>
+  </div>
+</section>
+
+<!--=================================
+ Our Clients -->
+ 
+ <!--=================================
+ footer -->
+<footer class="footer page-section-pt">
+<div class="container">
+  <div class="footer-contact white-bg" style="margin-bottom: 10px;">
+          <div class="row">
+              <div class="col-lg-4 col-md-4 bottom-m3">
+                  <div class="contact-box">
+                      <div class="contact-icon">
+                          <i class="ti-direction-alt"></i>
+                      </div>
+                      <div class="contact-info">
+                          <div class="text-center">
+                              <h5 class="mt-10 mb-10">John Young Parkway </h5>
+                              <span>Orlando, Florida 32837</span>
+                          </div>
+                          <style>
+                              .footer-contact .contact-box .contact-icon i
+                              {
+                                  color: #008037;
+                              }
+                          </style>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-4 bottom-m3">
+                  <div class="contact-box">
+                      <div class="contact-icon">
+                          <i class="ti-headphone-alt"></i>
+                      </div>
+                      <div class="contact-info">
+                          <div class="text-center">
+                              <h5 class="mt-10 mb-10">+(407) 917-2618</h5>
+                              <span>7 Days a Week 8:30am-8:30pm</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                  <div class="contact-box">
+                      <div class="contact-icon">
+                          <i class="ti-email"></i>
+                      </div>
+                      <div class="contact-info">
+                          <div class="text-center">
+                              <h5 class="mt-10 mb-10"> support@tuffonturf.com</h5>
+                              <span>24 X 7 online support</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+<!--=================================
+ Blogs -->
+
+<!--=================================
+ footer -->
+
+<section class="page-section-ptb contact-2" style="padding-bottom: 60px;">
+  <div class="container">
+  <div class="row justify-content-center text-center mb-35">
+   </div>
+   
+     <form method="post">
+      <div class="contact-form clearfix">
+          
+      <div class="row">
+        <div class="col-lg-4">
+            <div class="section-field">
+              <input id="name" type="text" placeholder="Name*" class="form-control" name="name" required>
+              <?php
+                  if(isset($_POST["submit"])){
+    
+                    $to = 'support@tuffonturf.com' ;
+                    $subject = 'New Inquiry - Tuff on Turf Form Submission!';
+                    $phone = $_POST['phone'];
+                    $email = $_POST['email'];
+                    $comments = $_POST['comments'];
+                    date_default_timezone_set('US/Eastern');
+                    $date = date('Y/m/d H:i:s');
+                    
+                    $headers .= "MIME-Version: 1.0\r\n";
+                    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+                    $headers .= 'From: Tuff on Turf <support@tuffonturf.com>' . PHP_EOL .
+                    'Reply-To: <' . $_POST['email'] .'>' . PHP_EOL .
+                    'X-Mailer: PHP/' . phpversion();
+                    
+                    $message = "<b>My Name:</b> " . $_POST['name'] . "<br />\n <b>My Phone Number:</b> " . $_POST['phone'] . "<br />\n <b>My Email:</b> " . $_POST['email'] . "<br />\n <b>Comments:</b> " . $_POST['comments'] . "<br />\n <b>Form Submitted:</b> " . $date;
+                    
+                    mail($to, $subject, $message, $headers);
+                    header('Location: index.php'); 
+                  }
+                    
+                  ?>
+             </div> 
+         </div>
+         <div class="col-lg-4">
+             <div class="section-field">
+                <input type="text" placeholder="Phone*" class="form-control" name="phone" required>
+              </div>
+          </div>
+         <div class="col-lg-4">
+             <div class="section-field">
+                <input type="email" placeholder="Email" class="form-control" name="email">
+              </div>
+          </div>
+      </div>
+          
+          <div class="row">
+              <div class="col-lg-12" style=" text-align: center; ">
+                  <div class="section-field textarea">
+                    <textarea class="input-message form-control" placeholder="Comment*"  rows="7" name="comments" required></textarea>
+                  </div>
+              </div>
+          </div>
+        <!-- Google reCaptch-->
+      <!-- <div class="g-recaptcha section-field clearfix" data-sitekey="[Add your site key]"></div> -->
+      <style>
+          .contact-form .section-field
+          {
+              width: 100%;
+          }
+      </style>
+      
+      <div class="row">
+          <div class="col-lg-12" style=" text-align: center; ">
+         <button id="submit" name="submit" type="submit" value="Send" class="button" style="background-color: #008037; border-color: #008037;"><span> Send message </span> <i class="fa fa-paper-plane"></i></button>
+          </div> 
+        </form>
+      </div>
+      
+      </div>
+      
+    </div>
+</section>
+
+<!--=================================
+ footer -->
+<div class="row">
+    <div class="col-lg-12" style=" text-align: center; ">
+      <a href="."><img class="img-fluid" id="logo-footer" src="images/greenieyellowturf.png" alt="logo">
+    </div>
+    <div class="col-lg-12" style=" text-align-last: center; margin-top: 20px;">
+      <div class="social text-left sm-mt-0 text-md-right xs-mt-20">
+          <ul>
+              <li>
+                  <a href="https://www.facebook.com/tuffonturf" target="_blank"> <i class="fa fa-facebook"></i> </a>
+              </li>
+              <li>
+                  <a href="https://twitter.com/tuffonturf" target="_blank"> <i class="fa fa-twitter"></i> </a>
+              </li>
+            
+              <li>
+                  <a href="https://www.instagram.com/tuffonturf" target="_blank"> <i class="fa fa-instagram"></i> </a>
+              </li>
+              
+              <li>
+                  <a href="https://www.linkedin.com/company/tuffonturf" target="_blank"> <i class="fa fa-linkedin"></i> </a>
+              </li>
+          </ul>
+      </div>
+    </div>
+</div>
+<div class="row">
+  <div class="col-lg-12 col-md-12">
+     <div class="divider mt-40 mb-25"></div>
+  </div>
+</div>
+
+</div>
+</div>
+</footer>
+ 
+<!--=================================
+ footer -->
+ 
+<!--=================================
+ footer -->
+ 
+<footer class="footer page-section-pt pt-10">
+
+<div class="copyright">
+<div class="container">
+<div class="row">
+  <div class="col-md-12">
+      <div class="text-left text-md-center xs-mt-15">
+          <p style=" margin-bottom: 45px; "> &copy;Copyright 
+            <span id="copyright"> 
+                <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+            </span> 
+           <a style=" color: black;"><b> Tuff on Turf </b></a> All Rights Reserved </p>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+</footer>
+
+<!--=================================
+ footer -->
+
+</div>
+
+<div id="back-to-top"><a class="top arrow" href="#top" style=" background-color: #008037; "><i class="fa fa-angle-up"></i> <span>TOP</span></a></div>
+
+<!--=================================
+ jquery -->
+
+<!-- jquery -->
+<script src="js/jquery-3.3.1.min.js"></script>
+
+<!-- plugins-jquery -->
+<script src="js/plugins-jquery.js"></script>
+
+<!-- plugin_path -->
+<script>var plugin_path = 'js/';</script>
+ 
+<!-- custom -->
+<script src="js/custom.js"></script>
+
+<script>
+$(document).ready(function(){
+    
+  $("a").on('click', function(event) {
+      
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+          
+      }, 800, function(){
+      });
+    } 
+  });
+});
+</script>
+
+</body>
+</html>
