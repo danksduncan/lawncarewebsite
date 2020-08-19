@@ -190,10 +190,10 @@
             <style>
                 .business-banner-03 span 
                    {
-                       letter-spacing: 15px;
+                       letter-spacing: 5px;
                    }
             </style>
-            <a onclick="myFunction()" class="button large black ml-10 animated4" style="background-color: #008037; border-color: #008037; color: white;">LEARN MORE </a>
+            <a onclick="myFunction()" class="button large black ml-10 animated4" style="background-color: #008037; border-color: #008037; color: white;">Get In Touch </a>
            <script>
             function myFunction(){
              document.getElementById("secret").click(); 
@@ -220,12 +220,12 @@
           <div class="section-title line left">
             <h1 class="title" style="margin-bottom: 25px;">About Us</h1>
           </div>
-          <h3 style="margin-bottom: 20px;">Our mission is to serve our community by providing exceptional lawn service and guaranteeing client satisfaction every time!</h3>
-          <p class="phoneShow" style="font-size: 20px;">We're commited to being your reliable source of lawn care whether you need more free time to spend with family or growing your business. Our values include 
-          integrity that you can depend on and being a brand you can trust. </p>
+          <h3 style="margin-bottom: 20px;">Our mission is to serve our community by providing exceptional lawn service and guaranteeing client satisfaction every time!</h3><br>
+          <i><p style="font-size: 23px;" class="phoneShow" style="font-size: 20px;">We're commited to being your reliable source of lawn care whether you need more free time to spend with family or growing your business. 
+          We strive ourselves in being a trusted brand ensuring that every lawn we service is properly maintained to reach the highest level of excellence. </p></i>
           
-          <p class="phoneHide" style="font-size: 20px; padding-right: 75px;">We're commited to being your reliable source of lawn care whether you need more free time to spend with family or growing your business. Our values include 
-          integrity that you can depend on and being a brand you can trust. </p>
+          <br><i><p style="font-size: 23px;" class="phoneHide" style="font-size: 20px; padding-right: 75px;">We're commited to being your reliable source of lawn care whether you need more free time to spend with family or growing your business. 
+          We strive ourselves in being a trusted brand ensuring that every lawn we service is properly maintained to reach the highest level of excellence. </p></i>
           
           <style type="text/css">
                .phoneShow 
@@ -291,7 +291,7 @@
 <!--=================================
  service -->
 
-<section class="secrvice-blog pb-50">
+<section class="secrvice-blog pb-50"> 
   <div class="container">
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-12 mb-30">
@@ -308,7 +308,7 @@
           <img class="img-fluid" src="images/theedge.png" alt="">
           <div class="p-4" style="text-align: center;">
             <h4 class="fw-5" style="margin-bottom: 10px;"><a href="#" class="text-black">Edging </a></h4>          
-            <p class="mb-0 pb-0 text-black">First impressions are important, that's why we believe every lawn deserves a crispy edge to really stand out. </p>
+            <p class="mb-0 pb-0 text-black">First impressions are important, that's why we make sure to leave your driveways and concrete walks with a crispy edge. </p>
           </div>
         </div>
       </div>
@@ -317,7 +317,7 @@
           <img class="img-fluid" src="images/hedgetrim.png" alt="">
           <div class="p-4" style="text-align: center;">
             <h4 class="fw-5" style="margin-bottom: 10px;"><a href="#" class="text-black">Trimming </a></h4>         
-            <p class="mb-0 pb-0 text-black">When it comes to lawn care, we ensure you are well equipped with hedges and bushes that are well maintained. </p>
+            <p class="mb-0 pb-0 text-black">No lawn is complete without ensuring your hedges and bushes are cleaned up to create a proper landscape for your home. </p>
           </div>
         </div>
       </div>
@@ -386,7 +386,7 @@ min-title -->
   <div class="container">
     <div class="row no-gutter">
       <div class="col-sm-12 text-center">
-          <div class="mb-20"> <img alt="" src="images/greenquote64.png"> </div>
+          <div class="mb-20"> <img alt="" src="images/cleargreenquote64.png"> </div>
         <blockquote>
           Reliable service every week!
         </blockquote>
@@ -398,62 +398,6 @@ min-title -->
 
 <!--=================================
 min-title -->
-
-<!--=================================
-counter
-
-<section class="page-section-ptb">
-  <div class="container">
- <div class="row">
-      <div class="col-lg-12">
-      <div class="owl-carousel" data-nav-arrow="false" data-nav-dots="true" data-items="1" data-lg-items="1" data-md-items="1" data-sm-items="1" data-xs-items="1">
-         <div class="item">
-              <div class="testimonial bottom_pos">
-                <div class="testimonial-avatar"> <img alt="" src="images/forsalehousetrim.png"> </div>
-                <div class="testimonial-info"> Reliable service every week!</div>
-                <style>
-                    .testimonial-info:before
-                    {
-                        color: #008037;
-                    }
-                    .author-info span
-                    {
-                        color: #008037;
-                    }
-                    .testimonial-avatar img
-                    {
-                        border: 4px solid #008037;
-                    }
-                    .owl-carousel .owl-dots .owl-dot:hover span, .owl-carousel .owl-dots .owl-dot.active span
-                {
-                    background: #008037;
-                }
-                    </style>
-                <div class="author-info"> <strong>Phil - <span>Kissimmee</span></strong> </div>
-            </div>
-        </div>
-        <div class="item">
-         <div class="testimonial bottom_pos">
-            <div class="testimonial-avatar"> <img alt="" src="images/residential1.png"> </div>
-            <div class="testimonial-info"> The guys work fast and saves me time on lawn work.</div>
-            <div class="author-info"> <strong>Jose - <span>Kissimmee</span></strong> </div>
-        </div>
-        </div>
-        <div class="item">
-         <div class="testimonial bottom_pos">
-            <div class="testimonial-avatar"> <img alt="" src="images/residential2.png"> </div>
-             <div class="testimonial-info"> Thanks for the great service guys!</div>
-            <div class="author-info"> <strong>Rodney - <span>Orlando</span></strong> </div>
-          </div>
-         </div>
-       </div>
-     </div>
-    </div>
-   </div>
-</section>
-
-<!--=================================
- Our Testimonial -->
 
 <!--=================================
 Our Clients  -->
@@ -533,52 +477,49 @@ Our Clients  -->
   <div class="container">
   <div class="row justify-content-center text-center mb-35">
    </div>
-   
      <form method="post">
       <div class="contact-form clearfix">
-          
-      <div class="row">
-        <div class="col-lg-4">
-            <div class="section-field">
-              <input id="name" type="text" placeholder="Name*" class="form-control" name="name" required>
-              <?php
-                  if(isset($_POST["submit"])){
-    
-                    $to = 'support@tuffonturf.com' ;
-                    $subject = 'New Inquiry - Tuff on Turf Form Submission!';
-                    $phone = $_POST['phone'];
-                    $email = $_POST['email'];
-                    $comments = $_POST['comments'];
-                    date_default_timezone_set('US/Eastern');
-                    $date = date('Y/m/d H:i:s');
-                    
-                    $headers .= "MIME-Version: 1.0\r\n";
-                    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
-                    $headers .= 'From: Tuff on Turf <support@tuffonturf.com>' . PHP_EOL .
-                    'Reply-To: <' . $_POST['email'] .'>' . PHP_EOL .
-                    'X-Mailer: PHP/' . phpversion();
-                    
-                    $message = "<b>My Name:</b> " . $_POST['name'] . "<br />\n <b>My Phone Number:</b> " . $_POST['phone'] . "<br />\n <b>My Email:</b> " . $_POST['email'] . "<br />\n <b>Comments:</b> " . $_POST['comments'] . "<br />\n <b>Form Submitted:</b> " . $date;
-                    
-                    mail($to, $subject, $message, $headers);
-                    header('Location: index.php'); 
-                  }
-                    
-                  ?>
-             </div> 
-         </div>
-         <div class="col-lg-4">
-             <div class="section-field">
-                <input type="text" placeholder="Phone*" class="form-control" name="phone" required>
+          <div class="row">
+            <div class="col-lg-4">
+                <div class="section-field">
+                  <input id="name" type="text" placeholder="Name*" class="form-control" name="name" required>
+                  <?php
+                      if(isset($_POST["submit"])){
+        
+                        $to = 'support@tuffonturf.com' ;
+                        $subject = 'New Inquiry - Tuff on Turf Form Submission!';
+                        $phone = $_POST['phone'];
+                        $email = $_POST['email'];
+                        $comments = $_POST['comments'];
+                        date_default_timezone_set('US/Eastern');
+                        $date = date('Y/m/d H:i:s');
+                        
+                        $headers .= "MIME-Version: 1.0\r\n";
+                        $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+                        $headers .= 'From: Tuff on Turf <support@tuffonturf.com>' . PHP_EOL .
+                        'Reply-To: <' . $_POST['email'] .'>' . PHP_EOL .
+                        'X-Mailer: PHP/' . phpversion();
+                        
+                        $message = "<b>My Name:</b> " . $_POST['name'] . "<br />\n <b>My Phone Number:</b> " . $_POST['phone'] . "<br />\n <b>My Email:</b> " . $_POST['email'] . "<br />\n <b>Comments:</b> " . $_POST['comments'] . "<br />\n <b>Form Submitted:</b> " . $date;
+                        
+                        mail($to, $subject, $message, $headers);
+                        header('Location: index.php'); 
+                      }
+                        
+                      ?>
+                 </div> 
+             </div>
+             <div class="col-lg-4">
+                 <div class="section-field">
+                    <input type="text" placeholder="Phone*" class="form-control" name="phone" required>
+                  </div>
               </div>
+              <div class="col-lg-4">
+                 <div class="section-field">
+                    <input type="email" placeholder="Email" class="form-control" name="email">
+                  </div>
+               </div>
           </div>
-         <div class="col-lg-4">
-             <div class="section-field">
-                <input type="email" placeholder="Email" class="form-control" name="email">
-              </div>
-          </div>
-      </div>
-          
           <div class="row">
               <div class="col-lg-12" style=" text-align: center; ">
                   <div class="section-field textarea">
@@ -594,7 +535,6 @@ Our Clients  -->
               width: 100%;
           }
       </style>
-      
       <div class="row">
           <div class="col-lg-12" style=" text-align: center; ">
          <button id="submit" name="submit" type="submit" value="Send" class="button" style="background-color: #008037; border-color: #008037;"><span> Send message </span> <i class="fa fa-paper-plane"></i></button>
@@ -603,35 +543,14 @@ Our Clients  -->
       </div>
       
       </div>
-      
     </div>
 </section>
 
 <!--=================================
  footer -->
-<div class="row">
-    <div class="col-lg-12" style=" text-align: center; ">
+<div class="row" style="text-align: center;">
+    <div class="col-lg-12">
       <a href="."><img class="img-fluid" id="logo-footer" src="images/greenieyellowturf.png" alt="logo">
-    </div>
-    <div class="col-lg-12" style=" text-align-last: center; margin-top: 20px;">
-      <div class="social text-left sm-mt-0 text-md-right xs-mt-20">
-          <ul>
-              <li>
-                  <a href="https://www.facebook.com/tuffonturf" target="_blank"> <i class="fa fa-facebook"></i> </a>
-              </li>
-              <li>
-                  <a href="https://twitter.com/tuffonturf" target="_blank"> <i class="fa fa-twitter"></i> </a>
-              </li>
-            
-              <li>
-                  <a href="https://www.instagram.com/tuffonturf" target="_blank"> <i class="fa fa-instagram"></i> </a>
-              </li>
-              
-              <li>
-                  <a href="https://www.linkedin.com/company/tuffonturf" target="_blank"> <i class="fa fa-linkedin"></i> </a>
-              </li>
-          </ul>
-      </div>
     </div>
 </div>
 <div class="row">
@@ -649,24 +568,29 @@ Our Clients  -->
  
 <!--=================================
  footer -->
- 
-<footer class="footer page-section-pt pt-10">
 
-<div class="copyright">
-<div class="container">
-<div class="row">
-  <div class="col-md-12">
-      <div class="text-left text-md-center xs-mt-15">
-          <p style=" margin-bottom: 45px; "> &copy;Copyright 
-            <span id="copyright"> 
-                <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-            </span> 
-           <a style=" color: black;"><b> Tuff on Turf </b></a> All Rights Reserved </p>
-      </div>
-  </div>
-</div>
-</div>
-</div>
+<footer class="footer page-section-pt pt-10" style="text-align: center;">
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                  <div class="text-md-center xs-mt-15">
+                      <p style="margin-bottom: 45px; "> &copy;Copyright
+                        <span id="copyright">
+                            <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                        </span> 
+                       <a style=" color: #008037;"><b> Tuff on Turf </b></a> All Rights Reserved </p>
+                       <style>
+                           a, button, input
+                           {
+                               color: #000000;
+                           }
+                       </style>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
 </footer>
 
 <!--=================================
